@@ -28,6 +28,9 @@ public class Calendar1 {
 	 		}else{
 	 			System.out.println(dayOfMonth + "/" + month + "/" + year);
 	 		}
+	 		if (dayOfWeek ==1){
+	 			System.out.println(dayOfMonth + "/" + month + "/" + year + " Sunday");
+	 		}
 	 		
 	 		advance();
 
